@@ -10,6 +10,7 @@ The first box boxes[0] is unlocked
 Return True if all boxes can be opened, else return False
 '''
 
+
 def canUnlockAll(boxes):
     """ method that verifies unlocking """
     if type(boxes) is not list or not all(type(box) is list for box in boxes):
